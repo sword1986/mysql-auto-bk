@@ -4,7 +4,6 @@ date=$(date +%Y_%m_%d_%H)
 dbname='db_name' #数据库名称
 dbuser='root' #数据库用户
 dbpwd='123456'  #数据库密码
-# dbip='rm-bp1o84581k34316m0.mysql.rds.aliyuncs.com' #阿里云内网连接地址
 if [ ! -d $bakdir ]
 then
         mkdir -p $bakdir
