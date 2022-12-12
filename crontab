@@ -12,4 +12,5 @@ MAILTO=root
 # |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
 # |  |  |  |  |
 # *  *  *  *  * user-name  command to be executed
-0 3 * * * root /home/db_bk.sh
+# 每日凌晨3点执行
+0 3 * * * /home/db_bk.sh
